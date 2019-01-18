@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+{% extends "resume/base.html" %}
+{% load staticfiles %}
+
+
+  {% block body_block %}
+  {% static 'static_jquery/js/jquery.js' %}
+  <!-- <link rel="stylesheet" href="{% static "resume/CSS/main_page.css" %}"/> -->
+  <script type="text/javascript" src="{% static "resume/JS/main_page.js" %}">
+  </script>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <div class="alert alert-warning" role="alert">
+        Page under CONSTANT construction! Keep checking for updates.
+      </div>
+      <h1 id="topheader"><strong id="topheader">Jacob Cansler's</strong></h1>
+      <h2>Virtual Resume</h2>
+      <p>This wesite is intended to showcase a variety of skills in programming and ultimaately serve as my "online resume".
+      Please leave a comment if you have any suggestions to improve the site, or if you are interested in speaking with me!</p>
+        <p></p>
+      <p>The key languages and tools utilized to build this site include; HTML, CSS, Bootstrap, SQLite, Javascript, Python, and Django. The wesite
+      is constantly being updated and used as my personal learning tool.  That being said, there may be a 'bug' here and there.  I assure you that
+      it will be fixed, but please leave a comment if you acress something strange. Ultimately this resume is to exhibit a variety of skills in abilities.</p>
+      <p><a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/jacob-cansler-52698010b/" role="button">LinkedIn</a></p>
+    </div>
+  </div >
+    <p id="aboutme"></p>
+    <!--///////////////////////////////////////////////////  -->
+    <h1>Who am I?</h1>
+      <h1><img  src="{% static "resume/pics/me.png" %}" alt="Image not Found"></h1>
+      <div class="aboutme">
+        <h2 class="bio">Name</h2>
+        <h4>Jacob Cansler</h4>
+        <h2 class="bio">Age</h2>
+        <h4>26</h4>
+        <h2 class="bio">Location</h2>
+        <h4>Apex, NC</h4>
+        <h2 class="bio">Education</h2>
+        <h4 id="red">North Carolina State University</h4>
+        <h4 id="red">B.S. Evironmental Technology and Management, Cum Laude</h4>
+        <h4 id="red">Minor: Agricultural Business Management & Env. Toxicology</h4>
+        <h2 class="bio">Summary</h2>
+        <div class="container">
+        <h4>Hello, once again thank you for visiting my page.  In short, figuring out how things are made intrigues me.
+          When I walk into a room or use a new computer program, I am not looking at the features in the room or software
+          to simply observe or use them.  My mind immediately starts trying to understand how it works.
+          I am a person that enjoys a constant challenge, and set time aside every day to learn something new.  When a new challenge
+          arises I want to make sure I have the knowledge to understand how to accomplish it.</h4>
+      </div>
+    </div>
+
+
+
+
+      <hr id="careers">
+      <h1>Career</h1>
+      <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6 col-xs-12">
+          <h2>Career History</h2>
+          <p>Yes you saw it correctly; my back ground is in the environmental field.  However, over the last three years I have been introduced to the analytics, programming and next generation side of the science, and found a true passion in technology.
+            Under my current role I am constantly exploring new technologies and finding ways to implement them into everyday activities. </p>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-6 col-xs-12">
+          <h2>Future Goals</h2>
+          <p>As you may have guessed, my future career goals are simple.  I would like to continue to be able to learn new technologies, and transfer my skills into a more technology and IT driven industry.
+              I want to surround myself with colleagues that I can constantly learn from and grow within a company that I can call home.  </p>
+      </div>
+      </div>
+      </div>
+    </div>
+      <br>
+
+      <div id="resumes" class="container">
+
+
+          <div>
+              <h2 id="exp">Experiences</h2>
+                <div class="col-lg-6 col-xs-6">
+                <h3 id="job">Jacobs Technology</h3>
+                <p></p>
+                <h4 id="job">Research Engineer</h4>
+                </div>
+
+              <div id="year" class="col-lg-6 col-xs-6">
+                <h4>May 2016 - Current</h4>
+              </div>
+
+              <div class="col-lg-12 col-xs-12">
+                <p id="job"><strong>Next Generation Emission Measurments</strong></p>
+                  <p>Research projects are focused on Next Generation Emission Measurements (NGEM).
+                    Remote monitoring systems are built in RTP and placed throughout the United States.
+                    Builds include mechanical design, PCB/electronic design, solar technologies, meteorological sensors,
+                    programming (Arduino/node red/python), and implementation at the job site. This requires frequent travel to the job
+                    site for setup, uprgrades and trouble shooting.  This role requires constant
+                    communication with client and supplying technical support over the phone to third party consultants, as well as sourcing new
+                    technologies and hardware to upgrade current equipment. Statistical algorithms
+                    (R / python) are created to filter and automate data processing.  This position is resposible for keeping up with
+                    all data generated from the job sites and constatnly looking for ways to automate the process.  Recently have implemented Python
+                    scripts to automate data handling and email alerts from remote job sites.   </p>
+
+                    <p id="job"><strong>Project Manager</strong></p>
+                    <p>Project managers (PMs) are tasked with communicating with clients, establishing staffing, sub-contractors,
+                      and coordinating daily activities to ensure deliverables are met on time. PMs are also responsible for tracking
+                      financials and submitting financial/progress reports monthly. Technical writing includes data reports,
+                      health and safety reports (project specific), SOPs, MOPs, and quality assurance project plans. Projects managed curerntly include
+                      three employees and one sub-contracting group.  The PM is responsible for work allocation, team coordina-tion, hiring,
+                      review and tracking progress activities.
+                    </p>
+
+                    <p id="job"><strong>Advanced Combustion Technoliges</strong></p>
+                    <p>The goal of this project was to implement a compression purification system onto a mock natural gas facility.
+                      The idea was to liquify CO2 before releasing exhaust to ambient air.
+                      Technical lead was responsible for coordinating plans between engineers and tradesmen/technicians to achieve goals,
+                       purchasing equipment and all supplies needed to complete the project and writing all documentation related to operating the system.  Also implemented new technologies for easier user interface including digital temperature, pressure and environmental readings associated with the process control.
+                     </p>
+              </div>
+
+              <div class="col-lg-6 col-xs-6">
+                  <h3 id="job">TRC Solutions inc</h3>
+                  <h4 id="job">Environmental Scientist</h4>
+              </div>
+
+              <div id="year" class="col-lg-6 col-xs-6">
+                <h4>May 2015 - May 2016</h4>
+              </div>
+
+              <div class="col-lg-12 col-xs-12">
+                  <p>As a consultant on projects throughout the United States the primary focus was on point source and process air pollution. The main responsibility in the field
+                    was to collect data related to these processes, setup/operation of field sampling analyzers, maintaining calibration of equipment,
+                    and interacting with clients daily.  When not in the field responsibilities were to repair sampling equipment,
+                    review data and create/review inventory spread-sheets.</p>
+              </div>
+
+
+          </div>
+
+      </div>
+
+
+      <hr id="skillz">
+
+
+      <h1>Skills and Abilities</h1>
+      <br>
+      <p align="center">I do not consider myself to be a '5 Star' in any programming language.  There is always new avenues to explore within
+        a single lanuage.  That being said, I am constantly learning to be as efficent as possible.</p>
+
+
+      <br>
+
+
+        <div id="skillcenter">
+
+
+          <div class="col-lg-4 col-xs-12">
+
+            <h4 id="skillH"><strong>Programming</strong></h4>
+
+            <h4 id="skill">Python
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">R
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">HTML
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">CSS
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">Bootstrap
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">JavaScript (vanilla)
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">Django
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">SQL
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+
+
+          </div>
+
+          <div class="col-lg-4 col-xs-12">
+
+            <h4 id="skill">Linux Shell / Windows CMD
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">jQuery
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">Arduino (C++)
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+
+
+            <h4 id="skillH"><strong>IDE's</strong></h4>
+
+            <h4 id="skill">R Studio
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">Jupyter Notebook
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">Subline
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">Atom
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+            <h4 id="skill">Spyder
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span id="star" class="fa fa-star"></span>
+            <span class="fa fa-star"></span> </h4>
+
+
+
+          </div>
+
+            <div class="col-lg-4 col-xs-12">
+
+              <h4 id="skillH"><strong>Operating Systems</strong></h4>
+
+              <h4 id="skill">Windows XP / 7 / 8 / 10
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span> </h4>
+
+              <h4 id="skill">Linux / Unix
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span class="fa fa-star"></span> </h4>
+
+              <h4 id="skillH"><strong>Other</strong></h4>
+
+              <h4 id="skill">Project Management
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span class="fa fa-star"></span> </h4>
+
+              <h4 id="skill">Budgeting
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span class="fa fa-star"></span> </h4>
+
+              <h4 id="skill">Prolem Solving / Creativity
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span> </h4>
+
+              <h4 id="skill">Technical Writing
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span class="fa fa-star"></span> </h4>
+
+              <h4 id="skill">Group Collaboration
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span>
+              <span id="star" class="fa fa-star"></span> </h4>
+
+
+
+
+
+
+
+            </div>
+
+            </div>
+
+
+      <hr id="commentzone">
+      <h1>Comments</h1>
+
+
+
+
+
+      <form enctype="multipart/form-data" action="{% url 'resume:show_resume' %}" method="POST">
+        {% csrf_token %}
+
+      <div class="form-group">
+          <div class="col-lg-6 col-xs-12">
+        <div class="col">
+          <label for="firstname">First Name:</label>
+          <input name="firstname" type="text" class="form-control" placeholder="First name">
+        </div>
+      </div>
+        <div class="col-lg-6 col-xs-12">
+        <div class="col">
+          <label for="lastname">Last Name:</label>
+          <input name="lastname" type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+      </div>
+        <div class="col-lg-6 col-xs-12">
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input name="email "type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-xs-12">
+  <div class="form-group">
+    <label for="company">Company:</label>
+    <input name="company" type="text" class="form-control" id="exampleFormControlInput1" placeholder="company">
+  </div>
+</div>
+      <div class="col-lg-12 col-xs-12">
+    <div class="form-group">
+      <label for="comment">Please Leave a comment!</label>
+      <textarea name="comment" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="This imformation is emailed directly to me and stored via SQLite"></textarea>
+    </div>
+  </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+
+
+
+  {% endblock %}

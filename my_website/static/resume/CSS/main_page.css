@@ -1,0 +1,144 @@
+body{
+  background-color: #f1f9ef;
+}
+
+hr{
+  width: 95%;
+  background-color: #a7bca2;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px;
+}
+
+#skillz{
+  width: 95%;
+  background-color: #a7bca2;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px;
+}
+#careers{
+  width: 95%;
+  background-color: #a7bca2;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px;
+}
+
+#commentzone{
+  width: 95%;
+  background-color: #a7bca2;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px;
+}
+
+
+h4{
+  text-align: center;
+}
+
+
+.jumbotron{
+  text-align: center;
+  background-color: #a7bca2;
+
+}
+
+form{
+  margin-top: 25px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.bio{
+  text-decoration: underline;
+
+}
+
+#exp{
+  text-align: center;
+  margin-top: 25px;
+}
+
+
+#job{
+  text-align: left;
+}
+
+#resumes{
+  background-color: #a7bca2;
+
+
+}
+
+/* #job{
+  text-align: left;
+} */
+
+#year{
+  text-align: right;
+}
+
+
+ #footer{
+   background-color: black;
+   padding: 17px;
+ }
+
+.clockbox{
+  text-align:
+
+}
+
+h1{
+  color: black;
+  text-align: center;
+  font-size: 75px;
+  margin-top: 50px;
+}
+h2{
+  text-align: center;
+}
+
+
+
+.aboutme{
+  text-align: center;
+}
+.career{
+  margin-top: 50px;
+}
+
+#red{
+  color: red;
+}
+
+.nav{
+  color:  #f1f9ef;
+}
+
+#navbar-brand{
+  color: #f1f9ef;
+}
+
+
+#star{
+  color: gold;
+}
+
+
+
+
+/* $(skill).css("text-align", "center");
+// $(skill).css("margin", "auto")
+
+$(threestar).css("color", "gold");
+// $(twostar).css("color", "gold")
+$(fourstar).css("color", "gold");
+$(fivestar).css("color", "gold");
+$(strong).css("text-align", "center"); */
